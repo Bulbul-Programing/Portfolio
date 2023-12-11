@@ -1,6 +1,7 @@
 import AnimatedCursor from "react-animated-cursor";
 import Navbar from "../../ShareComponent/Navbar/Navbar";
 import Banner from "../Banner/Banner";
+import WhyHireMe from "../WhyHireMe/WhyHireMe";
 
 const Home = () => {
     return (
@@ -31,6 +32,7 @@ const Home = () => {
             />
             <Navbar></Navbar>
             <Banner></Banner>
+            <WhyHireMe></WhyHireMe>
         </div>
     );
 };
