@@ -3,7 +3,7 @@ import { FaDownload } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div className='mx-5 md:mx-10 lg:mx-20 my-10 flex flex-col-reverse md:flex-row lg:flex-row items-center'>
+        <div className={`mx-5 md:mx-10 lg:mx-20 my-10 flex flex-col-reverse md:flex-row lg:flex-row items-center`}>
             <div className='md:w-3/4 lg:w-4/6'>
                 <h1 className="text-2xl md:text-3xl lg:text-5xl my-3 lg:my-5 shineEffect text-black font-bold uppercase">HI, i aM Bulbul ahammed!</h1>
                 <h1 className='font-bold my-3 text-lg hover:text-blue-500 hover:duration-150'>Junior MERN Stack Developer</h1>
