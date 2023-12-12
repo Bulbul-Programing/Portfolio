@@ -1,7 +1,7 @@
 import AnimatedCursor from "react-animated-cursor";
-import Navbar from "../../ShareComponent/Navbar/Navbar";
 import Banner from "../Banner/Banner";
 import WhyHireMe from "../WhyHireMe/WhyHireMe";
+import LatestProject from "../LatestProject/LatestProject";
 
 const Home = () => {
     return (
@@ -30,9 +30,9 @@ const Home = () => {
                     border: '3px solid rgba(0, 128, 254, 0.6)'
                 }}
             />
-            <Navbar></Navbar>
             <Banner></Banner>
             <WhyHireMe></WhyHireMe>
+            <LatestProject></LatestProject>
         </div>
     );
 };
