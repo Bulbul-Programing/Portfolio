@@ -1,5 +1,6 @@
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import './whyHireMe.css'
+import { Link } from "react-router-dom";
 
 const WhyHireMe = () => {
     return (
@@ -17,7 +18,6 @@ const WhyHireMe = () => {
                         <TabList className='flex gap-x-6 text-lg font-semibold my-5'>
                             <Tab>My Self</Tab>
                             <Tab>Education</Tab>
-                            <Tab>Skills</Tab>
                         </TabList>
 
                         <TabPanel>
@@ -41,33 +41,10 @@ const WhyHireMe = () => {
                                 <img className="w-[50px] h-[60px]" src="https://i.ibb.co/gjTHHGf/Board-of-Intermediate-and-Secondary-Education-Dhaka-Monogram-svg.png" alt="" />
                             </div>
                         </TabPanel>
-                        <TabPanel>
-                            <div className="flex items-center gap-x-6">
-                                <div>
-                                    <h1 className="font-bold mb-1">HTML</h1>
-                                    <h1 className="font-bold mb-1">CSS</h1>
-                                    <h1 className="font-bold mb-1">Tailwind</h1>
-                                    <h1 className="font-bold mb-1">Firebase</h1>
-                                    <h1 className="font-bold mb-1">React</h1>
-                                    <h1 className="font-bold mb-1">Express js</h1>
-                                    <h1 className="font-bold mb-1">MongoDB</h1>
-                                    <h1 className="font-bold mb-1">Node js</h1>
-                                </div>
-                                <div className="flex flex-col gap-y-3">
-                                    <progress className="progress mb-1 progress-info h-3 w-56" value="90" max="100"></progress>
-                                    <progress className="progress mb-1 progress-info h-3 w-56" value="85" max="100"></progress>
-                                    <progress className="progress mb-1 progress-info h-3 w-56" value="82" max="100"></progress>
-                                    <progress className="progress mb-1 progress-info h-3 w-56" value="80" max="100"></progress>
-                                    <progress className="progress mb-1 progress-info h-3 w-56" value="85" max="100"></progress>
-                                    <progress className="progress mb-1 progress-info h-3 w-56" value="70" max="100"></progress>
-                                    <progress className="progress mb-1 progress-info h-3 w-56" value="78" max="100"></progress>
-                                    <progress className="progress mb-1 progress-info h-3 w-56" value="65" max="100"></progress>
-                                </div>
-                            </div>
-                        </TabPanel>
+                        
                     </Tabs>
                 </div>
-                <button className="font-bold my-5 btn text-white bg-blue-400 hover:text-black">Hire me</button>
+                <Link to='/contact'><button className="font-bold my-5 btn text-white bg-blue-400 hover:text-black">Hire me</button></Link>
             </div>
         </div>
     );

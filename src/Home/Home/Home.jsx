@@ -2,6 +2,7 @@ import AnimatedCursor from "react-animated-cursor";
 import Banner from "../Banner/Banner";
 import WhyHireMe from "../WhyHireMe/WhyHireMe";
 import LatestProject from "../LatestProject/LatestProject";
+import Skills from "../Skills/Skills";
 
 const Home = () => {
     return (
@@ -32,6 +33,7 @@ const Home = () => {
             />
             <Banner></Banner>
             <WhyHireMe></WhyHireMe>
+            <Skills></Skills>
             <LatestProject></LatestProject>
         </div>
     );
